@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        padding: 20px;
+        justify-content: space-between;
+        height: 100vh;
+        width: 100vw;
+        margin: 0;
+        box-sizing: border-box;
+        gap: 10px;
+       
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        margin: 0;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(33.333% - 20px);
+        max-height: none;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .card img {
+        width: calc(100% - 10px);
+        height: auto;
+        border-radius: 10px;
+        margin: 5px;
+        box-sizing: border-box;
+    }
+
+    .card h1 {
+        margin: 5px 0;;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .card p {
+        margin: 5px 0;
+        font-size: 14px;
+        color: #dd811e; 
+        text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card"> <!-- Card 1 -->
+                <img src = "./images/horse.jpg"
+                alt="white horse">
+                <h1>White horse</h1>
+                <p>This is a white horse</p>
+            </div>
+            <div class="card"> <!-- Card 2 -->
+                <img src = "./images/cat.jpg" 
+                alt="white horse">
+                <h1>Red cat</h1>
+                <p>This is a red cat</p>
+            </div>
+            <div class="card"> <!-- Card 3 -->
+                <img src = "./images/dog.jpg"
+                alt="white horse">
+                <h1>Black dog</h1>
+                <p>This is a black dog</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card"> <!-- Card 4 -->
+                <img src = "images/plant.jpg" 
+                alt="Plant">
+                <h1>Plant</h1>
+                <p>This is a plant</p>
+            </div>
+            <div class="card"> <!-- Card 5 -->
+                <img src = "images/lion.jpg"
+                alt="Lion">
+                <h1>Lion</h1>
+                <p>This is a lion</p>
+            </div>
+            <div class="card"> <!-- Card 6 -->
+                <img src = "images/tree.jpg"
+                alt="Tree">
+                <h1>Tree</h1>
+                <p>This is a tree</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card"> <!-- Card 7 -->
+                <img src = "images/zebra.jpg"
+                alt="Zebra">
+                <h1>Zebra</h1>
+                <p>This is a zebra</p>
+            </div>
+            <div class="card"> <!-- Card 8 -->
+                <img src = "images/leopard.jpg"
+                alt="Leopard">
+                <h1>Leopard</h1>
+                <p>This is a leopard</p>
+            </div>
+            <div class="card"> <!-- Card 9 -->
+                <img src = "images/flower.jpg"
+                alt="Flower">
+                <h1>Flower</h1>
+                <p>This is a flower</p>
+            </div>
+        </div>
+
+</body>
+</html>
